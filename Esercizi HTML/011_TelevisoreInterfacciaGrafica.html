@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<body>
+     <div class ="container mt-5">
+        <h1>TELEVISIONE</h1>
+
+        <form>
+            <button type="button" onclick="document.getElementById('onOff').innerHTML = tv.PulsanteRosso();">ON/OFF</button><br><br>
+            <button type="button" onclick="document.getElementById('canale').innerHTML = tv.CanalePrecedente();">CAN -</button>
+            <button type="button" onclick="document.getElementById('canale').innerHTML = tv.CanaleSuccessivo();">CAN +</button>
+            <button type="button" onclick="document.getElementById('canale').innerHTML = tv.ImpostaCanale();">IMPOSTA CANALE</button>
+            <br><br>
+            <button type="button" onclick="document.getElementById('volume').innerHTML = tv.abbassaVolume();">VOL -</button>
+            <button type="button" onclick="document.getElementById('volume').innerHTML = tv.AumentaVolume();">VOL +</button>
+            <button type="button" onclick="document.getElementById('volume').innerHTML = tv.ToggleSilenzioso();">MUTO</button>
+        </form>
+
+        <br>
+        <br>
+
+        <div id="tv">
+            <img width="300px" height="300px" src="https://www.terranuova.it/var/terranuova/storage/images/news/attualita/cani-ecco-come-i-cuccioli-imparano-dall-uomo/1338268-1-ita-IT/Cani-ecco-come-i-cuccioli-imparano-dall-uomo.jpg">
+        </div>
+        <div id="output">
+            Stato:
+            <div id="onOff">off</div>
+            Canale:
+            <div id="canale">1</div>            
+            Volume:
+            <div id="volume">1</div>
+        </div>
+    </div> 
+    <script>
+        "use strict";
+       
+//Creare una classe Televisione sapendo che lo stato di una televisione è caratterizzato dal fatto di essere accesa o spenta, dal volume (che è compreso tra 0 e 100), dal canale (che è compreso tra 1 e 10 inclusi) e dal fatto che sia in modalità silenzioso o meno.
+//
+//Creare un opportuno costruttore, e i seguenti metodi:
+//PulasanteRosso(),
+//CanaleSuccessivo(),
+//CanalePrecedente(),
+//AumentaVolume(),
+//AbbassaVolume(),
+//ImpostaCanale(int c),
+//ToString(),
+//PulsanteSilenzioso().
+//Si rendano esplicite le scelte implementative fatte nei commenti all’inizio del codice.
+
+// attributi di una classe televisore
+// stato = [true, false] // non è un array sono i possibili valori della var
+// canale = [1,2,..10]
+// muto = [true, false]
+// volume = [0,1,..100]
+
+
+// se clicco i tasti canale e la televisione è spenta, la tv si accende e va sul canale selezionato dall'utente
+// aggiungiamo un immagine per ogni canale, cambiando canale deve cambiare l'immagine
+
+
+// definizione della classe
+class Televisore {
+    #m_stato;
+    #m_canale;
+    #m_muto;
+    #m_volume;
+    constructor(stato,canale,muto,volume){
+        this.stato = stato;
+        this.canale = canale;
+        this.muto = muto;
+        this.volume = volume;
+    }
+
+    get stato(){
+        return this.#m_stato;
+    }
+
+    set stato(stato){
+        this.#m_stato = stato;
+    }
+
+    get canale(){
+        return this.#m_canale;
+    }
+
+    set canale(canale){
+        if(canale == "") throw "empty";
+        if(isNaN(canale)) throw "not a number";
+        canale = Number(canale);
+        if(canale < 1) throw "too low";
+        if(canale > 10) throw "too high";
+        this.#m_canale = canale;
+    }
+
+    get muto(){
+        return this.#m_muto;
+    }
+
+    set muto(muto){
+        this.#m_muto = muto;
+    }
+
+    get volume(){
+        if(this.muto == true){
+            return this.#m_muto;
+        } else{
+            return this.#m_volume; 
+        }
+       
+    }
+
+    set volume(volume){
+        this.#m_volume = volume;
+    }
+
+    PulsanteRosso() {
+        if (!this.stato) {
+            this.stato = true;
+        }
+        else {
+            this.stato = false;
+        }
+        return this.stato;
+    }
+    CanaleSuccessivo() {
+        if (!this.stato)
+            return;
+        if(this.canale < 10) {
+            this.canale++;
+        }
+          return this.canale;
+    }
+    CanalePrecedente() {
+        if (!this.stato)
+            return;
+        if(this.canale > 1) {
+            this.canale--;
+        }
+            return this.canale;
+        
+    }
+    AumentaVolume() {
+        if (!this.stato)
+            return;
+        if (this.muto) {
+            this.muto = false;
+        }
+        if(this.volume < 100) {
+            this.volume++;
+        }
+            return this.volume;
+    }
+    
+      abbassaVolume() {
+if(this.#m_stato == true && this.#m_volume > 1) {
+            this.#m_volume--;
+   }
+}
+    
+
+    /* 
+    AbbassaVolume() {
+        if (!this.stato)
+            return;
+        if (this.muto) {
+            this.muto = false;
+        }
+        if(this.volume > 1) {
+            this.volume--;
+            } return this.volume;
+    } */
+    ToggleSilenzioso() {
+           if (this.#m_muto == false) {
+           this.#m_muto = true;
+       }
+       else {
+           this.#m_muto = false;
+       }
+   
+   }
+
+  /* PulsanteSilenzioso() {
+        if (!this.stato)
+            return;
+        if (!this.muto) {
+            this.muto = true;
+            return this.muto;
+        }else {
+            this.muto = false;
+            return this.volume;
+        }
+    } */
+    ImpostaCanale(){
+        if (!this.stato)
+            return;
+        this.canale = prompt("inserire un canale da 1 a 10: ");
+        return this.canale;
+    }
+
+}
+
+// creazione di un oggetto della classe
+let tv = new Televisore(false,1,false,1);
+
+function Programma() {
+    while(true){
+        try{
+            let opzione = prompt("Seleziona opzione menu:\n0) ESC\n1) On\n2) Off\n3) CAN-\n4) CAN+\n5) SET CAN\n6) VOL-\n7) VOL+\n8) MUTO", "");
+            opzione = Number(opzione);
+
+            if (opzione== 0) {
+                alert("Programma esce");
+                break;
+            }else{ 
+                switch(opzione){
+                    case 1: 
+                        tv.stato = true;
+                        alert(tv.stato);
+                        break;
+                    case 2:
+                        tv.stato = false;
+                        alert(tv.stato);
+                        break;
+                    case 3:
+                        tv.CanalePrecedente();
+                        alert(tv.canale);
+                        break;
+                    case 4:
+                        tv.CanaleSuccessivo();
+                        alert(tv.canale);
+                        break;
+                    case 5:
+                        let insCanale = Number(prompt("inserisci il canale" ));
+                        tv.canale = insCanale;
+                        alert(tv.canale);
+                        break;
+                    case 6:
+                        tv.abbassaVolume();
+                        alert(tv.volume);
+                        break;
+                    case 7:
+                        tv.AumentaVolume();
+                        alert(tv.volume);
+                        break;
+                    case 8:
+                        tv.ToggleSilenzioso();
+                        alert(tv.volume);
+                        break;
+                    default: 
+                        alert("Valore non presente");
+                    }
+                }
+            }catch(err) {
+                alert("Input is " + err);
+            }
+        }
+}
+
+Programma();
+
+</script>
+</body>
+</html>
