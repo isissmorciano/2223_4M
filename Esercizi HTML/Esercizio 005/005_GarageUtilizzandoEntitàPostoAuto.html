@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<label for="marca">Marca:</label><br>
+	<input type="text" name="marca" id="marca"><br>
+	<label for="anno">Anno:</label><br>
+	<input type="number" name="anno" id="anno"><br>
+	<label for="cilindrata">Cilindrata:</label><br>
+	<input type="number" name="cilindrata" id="cilindrata"><br>
+	<label for="porte">Porte:</label><br>
+	<input type="number" name="porte" id="porte"><br>
+	<label for="alimentazione">Alimentazione:</label><br>
+	<input type="text" name="alimentazione" id="alimentazione"><br><br>
+	<button type="button" onclick="garage1.aggiungiMacchina(); garage1.stampa();">AGGIUNGI MACCHINA</button>
+	<button type="button" onclick="garage1.rimuoviMacchina(); garage1.stampa();">RIMUOVI MACCHINA</button>
+	<br><br>
+	<div id="contenitore"></div>
+	<script type="text/javascript" src="005_GarageUtilizzandoEntitàPostoAuto.js">
+	</script>
+</body>
+</html>
