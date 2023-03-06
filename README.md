@@ -1,9 +1,9 @@
 # 2223_4M
 ## lista degli esercizi di laboratorio
 
-1. [LAB001](http://example.com "Title"): Implementare la classe studente con gli attributi: nome, cognome e classe. e i metodi: costruttore e mostraDati
-2. [Modificare l'eserczio precedente aggiungendo il concetto di Classe Scolastica e collegandolo a studente ](http://example.com "Title")
-3. Modificare ancora la classe studente aggiungendo un "registro elettronico" con la gestione N classi
+1. [LAB001 (JS-Oggetti,Classi)-Classe Studente](http://example.com "Title"): Implementare la classe studente con gli attributi: nome, cognome e classe. e i metodi: costruttore e mostraDati
+2. [LAB002](http://example.com "Title"): Modificare l'eserczio precedente aggiungendo il concetto di Classe Scolastica e collegandolo a studente 
+3. [LAB003](http://example.com "Title"): Modificare ancora la classe studente aggiungendo un "registro elettronico" con la gestione N classi
 4. X
 5. Programmare un' applicazione JS per la gestione di un garage
 6. Programmare un software per la gestione di una biblioteca
