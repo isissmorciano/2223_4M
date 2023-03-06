@@ -51,5 +51,3 @@ Giocatore "2-2"-left-"0-N"  Partita : gioca
 @enduml
 ```
 
-## immagine del diagramma UML
-(/download/UML_Forza4.svg)
