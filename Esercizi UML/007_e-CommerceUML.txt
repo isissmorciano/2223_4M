@@ -1,0 +1,68 @@
+@startuml
+class Carrello{
+nProdotti : int
+prezzoTotale : int
+'vado a riprendere la classe prodotto, visualizzando pero degli attributi differenti'
+
+
+getInfoProdotto() : int
+  'di info del prodotto vado a prendere lo sconto, il prezzo e la quantita'
+aggiungiProdotto() : int
+  'aumento la quantita del prodotto nel caso in cui venga aggiunto'
+eliminaProdotto() : int
+  'diminuisco la quantita del prodotto nel caso in cui venga eliminato'
+  'per eliminato non intendo eliminare completamente tutti i prodotti, ma diminuire la quantita di prodotti'
+
+}
+
+class Prodotto {
+nome : int
+  'es. Logitech G502'
+codice : int
+'es NGHBRY57828'
+descrizione : int
+  'es. Mouse 23000 DPI'
+quantita : int
+prezzoScontato : int
+sconto : int
+  
+setInfoProdotto() : int
+}
+
+
+class Utente {
+username : string
+password : int
+nome : string
+cognome : string
+
+setInfoUtente() : int
+}
+
+Utente "1..1" -- "1..1"Carrello : possiede
+Carrello "1..1" -- "0..N" Prodotto : contiene
+Utente "1..1" -- "0..N" Prodotto : acquista
+'è l'utente che acquista un prodotto'
+
+
+@enduml
+BarakovicAli_codiceUML.txt
+Visualizzazione di BarakovicAli_codiceUML.txt.
+LAB007 [VERIFICA -JS-OO;Ass,Aggr,Comp.] - e-Commerce
+Marco Sabattini
+•
+7 nov 2022
+100 punti
+Consegna: 7 nov 2022, 14:00
+Sviluppare un programma in JSi per gestire un carrello di un sito di e-commerce. Un carrello è associato all’utente collegato al sito, e per ogni utente è previsto un solo carrello. È importante risalire dall’utente al carrello e non il viceversa. L’utente è caratterizzato da Username, Password (privato), Nome e Cognome. Ogni carrello può contenere diversi prodotti; per ogni prodotto nel carrello è riportata la quantità, il prezzo, l’eventuale sconto applicato (in termini percentuali). Ogni prodotto è caratterizzato da un codice, una descrizione, un prezzo. Dato un prodotto non è necessario risalire ai carrelli in cui è stato aggiunto.
+Sul carrello è possibile eseguire le seguenti operazioni:
+Aggiungi prodotto
+Elimina prodotto
+Calcola totale
+Si noti che nel caso sia inserito un prodotto che già esiste nel carrello questo va a modificare la quantità del prodotto precedentemente inserito.
+
+//consegnare UML e codice JS   
+CognomeNome_disegnoUML.png  (disegno plantUml);  
+CognomeNome_codiceUML.txt (codice plantUml);
+CognomeNome_codiceJS.js
+Commenti sul corso

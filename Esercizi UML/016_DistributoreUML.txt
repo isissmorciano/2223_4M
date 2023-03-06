@@ -1,0 +1,28 @@
+@startuml
+class Distributore{
+  nBevande : int
+  'numero di bevande totali presenti all'interno del distributore'
+  bevande  : Bevanda
+  'es. coca cola e sprite'
+  erogazioneBevanda() : bool 
+  'restituisce vero/falso in base alla presenza della bevanda all'interno del distributore'
+  importoInserito : int
+  
+  inserimentoMoneta() : int
+  getPrezzo() : Bevanda
+  getQuantita : Bevanda  
+}
+
+class Bevanda{
+  nome : string
+  quantita : int
+  prezzo : int
+  'prezzo in bevanda è un informazione aggiuntiva, non è fondamentale'
+  
+  setPrezzo() : int
+  constructor(nome : string, prezzo : int, quantita : int) : void
+  getNome() : string
+}
+
+Distributore "1..1"--"0..N" Bevanda
+@enduml
