@@ -1,8 +1,8 @@
 # 2223_4M
 ## lista degli esercizi di laboratorio
 
-1. Implementazone della classe studente con attributi e metodi assegnati
-2. Modificare l'eserczio precedente aggiungendo il concetto di Classe Scolastica e collegandolo a studente 
+1. [LAB001](http://example.com "Title"): Implementare la classe studente con gli attributi: nome, cognome e classe. e i metodi: costruttore e mostraDati
+2. [Modificare l'eserczio precedente aggiungendo il concetto di Classe Scolastica e collegandolo a studente ](http://example.com "Title")
 3. Modificare ancora la classe studente aggiungendo un "registro elettronico" con la gestione N classi
 4. X
 5. Programmare un' applicazione JS per la gestione di un garage
@@ -15,7 +15,7 @@
 12. Programare un' applicazione JS per la gestione di un garage
 13. Creare un programma basato su un negozio che vende prodotti alimentari e non alimentari, che può anche applicare sconti
 14. Creare un programma basato su una fattoria con quattro tipi di animali e i loro dati
-15. Creare un programma basato su un negozio di strumenti musicali/opere d'arte
+15. Creare un programma basato su un negozio di opere d'arte
 16. X
 17. X
 18. X
