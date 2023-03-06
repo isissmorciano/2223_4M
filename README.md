@@ -14,9 +14,9 @@
 11. Creare un interfaccia per il televisore con la classe televisore di un compagno
 12. Programare un' applicazione JS per la gestione di un garage
 13. Creare un programma basato su un negozio che vende prodotti alimentari e non alimentari, che può anche applicare sconti
-14. a
-15. a
-16. a
-17. a
-18. a
-19. a
+14. Creare un programma basato su una fattoria con quattro tipi di animali e i loro dati
+15. Creare un programma basato su un negozio di strumenti musicali/opere d'arte
+16. X
+17. X
+18. X
+19. Programmare un gioco che  consiste nel comandare un Cacciatore manuale in modo da raggiungere la preda in tempo, eventualmente in competizione con un cacciatore automatico, muovendosi in una scacchiera su cui sono sistemate pedine di diverso tipo: ostacoli, preda e cacciatori
