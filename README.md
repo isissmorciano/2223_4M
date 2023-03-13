@@ -16,7 +16,7 @@
 13. [LAB013](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20013): Creare un programma basato su un negozio che vende prodotti alimentari e non alimentari, che può anche applicare sconti
 14. [LAB014](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20014): Creare un programma basato su una fattoria con quattro tipi di animali e i loro dati
 15. [LAB015](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20015): Creare un programma basato su un negozio di opere d'arte
-16. [LAB016](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20016): 
-17. [LAB017](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20017): 
-18. [LAB018](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20018): 
+16. [LAB016](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20016): Distributore di bevande
+17. [LAB017](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20017): Distributore di carburante
+18. [LAB018](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20018): Formica
 19. [LAB019](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20019): Programmare un gioco che  consiste nel comandare un Cacciatore manuale in modo da raggiungere la preda in tempo, eventualmente in competizione con un cacciatore automatico, muovendosi in una scacchiera su cui sono sistemate pedine di diverso tipo: ostacoli, preda e cacciatori
