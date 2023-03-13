@@ -1,9 +1,9 @@
 # 2223_4M
 ## lista degli esercizi di laboratorio
 
-1. [LAB001 (JS-Oggetti,Classi)-Classe Studente](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20001): Implementare la classe studente con gli attributi: nome, cognome e classe. e i metodi: costruttore e mostraDati
-2. [LAB002](http://example.com "Title"): Modificare l'eserczio precedente aggiungendo il concetto di Classe Scolastica e collegandolo a studente 
-3. [LAB003](http://example.com "Title"): Modificare ancora la classe studente aggiungendo un "registro elettronico" con la gestione N classi
+1. [LAB001](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20001): Implementare la classe studente con gli attributi: nome, cognome e classe. e i metodi: costruttore e mostraDati
+2. [LAB002](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20002): Modificare l'eserczio precedente aggiungendo il concetto di Classe Scolastica e collegandolo a studente 
+3. [LAB003](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20003): Modificare ancora la classe studente aggiungendo un "registro elettronico" con la gestione N classi
 4. X
 5. Programmare un' applicazione JS per la gestione di un garage
 6. Programmare un software per la gestione di una biblioteca
