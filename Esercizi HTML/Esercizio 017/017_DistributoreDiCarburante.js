@@ -1,4 +1,3 @@
-
             class Distributore {
                 #m_nome = null;
                 #m_indirizzo = null;
@@ -54,16 +53,23 @@
                 this.carburante = carburante;
                 this.carburPres = 0;
                 this.capacita = capacita;
-                this.prezzo = prezzo
+                this.prezzo = prezzo;
             }
 
             modificaPrezzo(nuovoPrezzo) {
-                tihs.#m_prezzo = nuovoPrezzo;
+                this.#m_prezzo = nuovoPrezzo;
             }
 
             rifornisci() {
                 this.carburPres = this.capacita;
             }
+            
+            set prezzo(nuovoPrezzo) {
+                this.#m_prezzo = nuovoPrezzo;
+                }
+            get prezzo() {
+                return this.#m_prezzo;
+                }
             }
 
             let distributore1 = new Distributore("Scacciacani", "via verdi 12", "ESSO")
@@ -75,7 +81,10 @@
             distributore1.aggiungiDeposito(deposito1);
 
             deposito0.rifornisci();
-
+            
+            deposito0.modificaPrezzo(2);
+            console.log(deposito0.prezzo)
+           
             //tipo = 0 : benzina | 1 : gasolio
             //selezQuantita = 0 : euro | 1 : litri
             console.log("gasolio litri");
