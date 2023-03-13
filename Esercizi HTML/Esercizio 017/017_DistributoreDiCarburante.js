@@ -82,6 +82,3 @@
             distributore1.vendiCarburante(1,1,20);
             console.log("benzina euro");
             distributore1.vendiCarburante(0,0,10);
-        </script>
-    </body>
-</html>
