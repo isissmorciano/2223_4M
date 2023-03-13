@@ -19,4 +19,4 @@
 16. X
 17. X
 18. X
-19. [LAB020](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20020): Programmare un gioco che  consiste nel comandare un Cacciatore manuale in modo da raggiungere la preda in tempo, eventualmente in competizione con un cacciatore automatico, muovendosi in una scacchiera su cui sono sistemate pedine di diverso tipo: ostacoli, preda e cacciatori
+19. [LAB019](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20019): Programmare un gioco che  consiste nel comandare un Cacciatore manuale in modo da raggiungere la preda in tempo, eventualmente in competizione con un cacciatore automatico, muovendosi in una scacchiera su cui sono sistemate pedine di diverso tipo: ostacoli, preda e cacciatori
