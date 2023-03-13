@@ -1,6 +1,4 @@
-# nome esercizio
-
-Negozio di Animali
+# Negozio di Animali
 
 ## testo
 Il sistema gestisce un negozio di animali. Il negozio vende animali domestici come cani, gatti e uccelli. 
@@ -8,6 +6,10 @@ Ogni animale ha un nome, una data di nascita e un prezzo di vendita. I cani hann
 I gatti hanno anche un colore del pelo. Gli uccelli hanno anche un tipo di uccello. Il negozio ha anche un elenco di clienti che possono acquistare gli animali. 
 Ogni cliente ha un nome, un indirizzo e un numero di telefono. 
 Il sistema deve essere in grado di mostrare l'elenco degli animali disponibili per l'acquisto e gli animali venduti e i relativi clienti.
+
+## immagine del diagramma UML
+![Negozio di Animali](https://raw.githubusercontent.com/isissmorciano/2223_4M/main/Esercizi%20UML/000_UML_NegoziodiAnimali.svg)
+
 
 ## codice del diagramma UML
 
@@ -65,5 +67,3 @@ Animale <|-- Uccello
 @enduml
 ```
 
-## immagine del diagramma UML
-![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
