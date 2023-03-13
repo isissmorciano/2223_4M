@@ -4,10 +4,8 @@
 1. [LAB001](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20001): Implementare la classe studente con gli attributi: nome, cognome e classe. e i metodi: costruttore e mostraDati
 2. [LAB002](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20002): Modificare l'eserczio precedente aggiungendo il concetto di Classe Scolastica e collegandolo a studente 
 3. [LAB003](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20003): Modificare ancora la classe studente aggiungendo un "registro elettronico" con la gestione N classi
-4. X
 5. [LAB005](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20005): Programmare un' applicazione JS per la gestione di un garage
 6. [LAB006](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20006): Programmare un software per la gestione di una biblioteca
-7. X
 8. [LAB008](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20008): Correzione del software della biblioteca
 9. [LAB009](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20009): Programmare un televisore sapendo che ha due stati: acceso e spento
 10. [LAB010](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20010): Creare un interfaccia per il televisore
