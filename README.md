@@ -20,3 +20,6 @@
 17. [LAB017](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20017): Distributore di carburante
 18. [LAB018](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20018): Formica
 19. [LAB019](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20019): Programmare un gioco che  consiste nel comandare un Cacciatore manuale in modo da raggiungere la preda in tempo, eventualmente in competizione con un cacciatore automatico, muovendosi in una scacchiera su cui sono sistemate pedine di diverso tipo: ostacoli, preda e cacciatori
+
+## lista degli esercizi UML
+1. [LAB001](https://github.com/isissmorciano/2223_4M/blob/main/Esercizi%20UML/000_UML_NegoziodiAnimali.md): Negozio di Animali
