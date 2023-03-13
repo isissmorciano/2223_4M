@@ -5,18 +5,18 @@
 2. [LAB002](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20002): Modificare l'eserczio precedente aggiungendo il concetto di Classe Scolastica e collegandolo a studente 
 3. [LAB003](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20003): Modificare ancora la classe studente aggiungendo un "registro elettronico" con la gestione N classi
 4. X
-5. Programmare un' applicazione JS per la gestione di un garage
-6. Programmare un software per la gestione di una biblioteca
+5. [LAB005](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20005): Programmare un' applicazione JS per la gestione di un garage
+6. [LAB006](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20006): Programmare un software per la gestione di una biblioteca
 7. X
-8. Correzione del software della biblioteca
-9. Programmare un televisore sapendo che ha due stati: acceso e spento
-10. Creare un interfaccia per il televisore
-11. Creare un interfaccia per il televisore con la classe televisore di un compagno
-12. Programare un' applicazione JS per la gestione di un garage
-13. Creare un programma basato su un negozio che vende prodotti alimentari e non alimentari, che può anche applicare sconti
-14. Creare un programma basato su una fattoria con quattro tipi di animali e i loro dati
-15. Creare un programma basato su un negozio di opere d'arte
+8. [LAB008](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20008): Correzione del software della biblioteca
+9. [LAB009](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20009): Programmare un televisore sapendo che ha due stati: acceso e spento
+10. [LAB010](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20010): Creare un interfaccia per il televisore
+11. [LAB011](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20011): Creare un interfaccia per il televisore con la classe televisore di un compagno
+12. [LAB012](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20012): Programare un' applicazione JS per la gestione di un garage
+13. [LAB013](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20013): Creare un programma basato su un negozio che vende prodotti alimentari e non alimentari, che può anche applicare sconti
+14. [LAB014](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20014): Creare un programma basato su una fattoria con quattro tipi di animali e i loro dati
+15. [LAB015](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20015): Creare un programma basato su un negozio di opere d'arte
 16. X
 17. X
 18. X
-19. Programmare un gioco che  consiste nel comandare un Cacciatore manuale in modo da raggiungere la preda in tempo, eventualmente in competizione con un cacciatore automatico, muovendosi in una scacchiera su cui sono sistemate pedine di diverso tipo: ostacoli, preda e cacciatori
+19. [LAB020](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20020): Programmare un gioco che  consiste nel comandare un Cacciatore manuale in modo da raggiungere la preda in tempo, eventualmente in competizione con un cacciatore automatico, muovendosi in una scacchiera su cui sono sistemate pedine di diverso tipo: ostacoli, preda e cacciatori
