@@ -1,6 +1,10 @@
 # UML Forza4
 
-testo dell'esercizio
+## testo
+realizzare il modello uml del gioco forza4
+
+## immagine del diagramma UML
+![Forza4](https://raw.githubusercontent.com/isissmorciano/2223_4M/main/Esercizi%20UML/000_UML_Forza4.svg)
 
 ## codice del diagramma UML
 
