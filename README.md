@@ -23,3 +23,4 @@
 
 ## lista degli esercizi UML
 1. [LAB001](https://github.com/isissmorciano/2223_4M/blob/main/Esercizi%20UML/000_UML_NegoziodiAnimali.md): Negozio di Animali
+2. [LAB002](https://github.com/isissmorciano/2223_4M/blob/main/Esercizi%20UML/000_UML_Forza4.md): Forza 4
