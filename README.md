@@ -1,5 +1,10 @@
 # 2223_4M
-## lista degli esercizi di laboratorio
+
+## Remote VSCode coding
+Istruzioni per connettersi con VSCode tramite il protocollo SSH ad una macchina remota ed eseguire il proprio codice sulla macchina remota.
+[Remote VSCode Coding](https://docs.google.com/document/d/1Hj421cgJWSpHDKt7EvSvzY98OCbt7lCXVqEd5uTHEic/edit?usp=sharing)
+
+## Lista degli esercizi di laboratorio
 
 1. [LAB001](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20001): Implementare la classe studente con gli attributi: nome, cognome e classe. e i metodi: costruttore e mostraDati
 2. [LAB002](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20HTML/Esercizio%20002): Modificare l'eserczio precedente aggiungendo il concetto di Classe Scolastica e collegandolo a studente 
