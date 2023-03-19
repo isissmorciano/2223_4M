@@ -27,5 +27,6 @@ Istruzioni per connettersi con VSCode tramite il protocollo SSH ad una macchina 
 ## lista degli esercizi UML
 1. [LAB001](https://github.com/isissmorciano/2223_4M/blob/main/Esercizi%20UML/000_UML_NegoziodiAnimali.md): Negozio di Animali
 2. [LAB002](https://github.com/isissmorciano/2223_4M/blob/main/Esercizi%20UML/000_UML_Forza4.md): Forza 4
-3. [LAB007](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20UML/Esercizio%20007): E-Commerce
+3. [LAB003](https://github.com/isissmorciano/2223_4M/blob/main/Esercizi%20UML/000_UML_AziendaDiProduzione.md): Azienda di Produzione
+4. [LAB007](https://github.com/isissmorciano/2223_4M/tree/main/Esercizi%20UML/Esercizio%20007): E-Commerce
 
