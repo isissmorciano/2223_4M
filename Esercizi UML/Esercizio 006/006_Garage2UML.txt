@@ -1,0 +1,24 @@
+@startuml
+class Veicolo{
+marca : string
+anno : int
+cilindrata : int
+}
+
+class Auto {
+porte : int
+alimentazione : string
+}
+
+class Moto{
+tempi : int
+}
+
+class Furgone{
+capacita : int
+}
+
+Moto -|> Veicolo
+Auto -|> Veicolo
+Furgone -|> Veicolo
+@enduml
