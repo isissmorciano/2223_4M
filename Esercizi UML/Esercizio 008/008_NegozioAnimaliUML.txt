@@ -1,0 +1,41 @@
+@startuml
+class Negozio{
+  nome : string
+  indirizzo : string  
+  animali[] : Animale
+  clienti[] : Cliente
+  getClienti() : Cliente[]
+  getAnimali() : Animale[]
+}
+class Animale{
+  nome : string
+  dataNascita : int
+  codiceIdentificativo : string
+  prezzo : int
+  clienti[] : Cliente 
+  'vettore cliente dentro animale
+}
+class Cliente{
+  nome : string
+  indirizzo : string
+  numeroTelefono : int
+  getNegozio() : Negozio
+} 
+class Uccello {
+  tipo : string
+}
+class Cane {
+  razza : string
+  pelo : string
+}
+class Gatto {
+  colorePelo : string
+}
+Animale <|-- Uccello
+Animale <|-- Cane
+Animale <|-- Gatto
+
+Negozio "1..1"--"0..N" Animale : vende 
+Negozio "1..1"--"0..N" Cliente : ha 
+Cliente "1..1"--"0..N" Animale : acquista
+@enduml
