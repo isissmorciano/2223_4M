@@ -1,0 +1,34 @@
+@startuml
+
+'Il movimento come variabile
+'booleana assume true se la
+'formica cammina e false se non
+'cammina.
+
+'L'energia consumata è associata
+'al movimento per determinare
+'quanta energia è stata consumata.
+
+'Muovi genera un valore casuale tra 0 e 3 e muove la formica,
+'la formica si muove solo se c'è energia.
+
+'Controlla_energia è un metodo che determina se la formica si
+'può muovere oppure no. La stessa cosa vale per il metodo
+'Mangia che si attiva solo se Controlla_energia non rileva
+'nessuna energia nella formica.
+
+'Il metodo Muovi si attiva solo se Controlla_energia determina che la
+'formica abbia energia: se c'è n'è la formica si muove e viceversa.
+
+class Formica {
+  nome : string
+  movimento : bool
+  energia_attuale : int
+  energia_consumata : int
+  energia_residua = energia_attuale - energia_consumata : int
+  Mangia() : int
+  Muovi() : int
+  Controlla_energia() : int
+}
+
+@enduml
