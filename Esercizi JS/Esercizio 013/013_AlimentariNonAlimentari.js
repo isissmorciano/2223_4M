@@ -1,3 +1,4 @@
+"use strict";
 
 class Prodotto {
 	#m_codiceBarre;
@@ -52,35 +53,7 @@ class NonAlimentari extends Prodotto{
 }
 
 
-
 let prod = new Prodotto("fdf", "sdfdd", 348);
-
-
+//console.log();
 prod.prezzo = 100;
-prod.applicaSconto();
-
-
-
-
-
-
-/*@startuml
-
-class Prodotto {
-codiceBarre : string
-descrizione : string 
-prezzo : int
-applicaSconto()
-}
-
-class Alimentari {
-dataScadenza : date
-}
-
-class NonAlimentari {
-materiale : string
-}
-
-Prodotto <-- Alimentari 
-Prodotto <-- NonAlimentari 
-@enduml*/
+prod.applicaSconto(prod);
