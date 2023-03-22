@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <style>
+        /* add border to table, tr, th, and td */
+        table, tr, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <p>liste da trasformare in tabella con 2 colonne: esercizi UML, esercizi JS</p>
+
+    <p>es uml numerazione da sistemare!</p>
+
+    <div id="table"></div>
+
+    <!-- add javascript -->
+    <script type="text/javascript">
+
+        // function createExerciseList(folderName,divName,numberOfExercises) that:
+        // create numberOfExercises a tag with attributes href such as
+        // <a href="folderName/Esercizio N/">Esercizio N</a>
+        // where N is the number of the exercise
+        // and add them the div with id "divName"
+        // return the list of created a tags
+        function createExerciseList(folderName,divName,numberOfExercises) {
+            list_of_a = [];
+            for (var i = 1; i <= numberOfExercises; i++) {
+                var a = document.createElement("a");
+                if (i < 10) {
+                    a.setAttribute("href", folderName + "/Esercizio 00" + i + "/");
+                    a.innerHTML = "Esercizio 00" + i;
+                } else {
+                    a.setAttribute("href", folderName + "/Esercizio 0" + i + "/");
+                    a.innerHTML = "Esercizio 0" + i;
+                }
+                a.innerHTML = "Esercizio " + i;
+                // document.getElementById(divName).appendChild(a);
+                // document.getElementById(divName).appendChild(document.createElement("br"));
+                list_of_a.push(a);
+            }
+            return list_of_a;
+        }
+
+        // function that creates a table with two columns:
+        // the header of the table is: Esercizi JS, Esercizi UML
+        // the first column is the list of exercises of JS
+        // the second column is the list of exercises of UML
+        function createTable(ex_js_list, ex_uml_list) {
+            var table = document.createElement("table");
+            var tr = document.createElement("tr");
+            var th1 = document.createElement("th");
+            var th2 = document.createElement("th");
+            th1.innerHTML = "Esercizi JS";
+            th2.innerHTML = "Esercizi UML";
+            tr.appendChild(th1);
+            tr.appendChild(th2);
+            table.appendChild(tr);
+            for (var i = 0; i < ex_js_list.length; i++) {
+                var tr = document.createElement("tr");
+                var td1 = document.createElement("td");
+                var td2 = document.createElement("td");
+                if (i < ex_js_list.length) {
+                    td1.appendChild(ex_js_list[i]);
+                } else {
+                    td1.innerHTML = "";
+                }
+                if (i < ex_uml_list.length) {
+                    td2.appendChild(ex_uml_list[i]);
+                } else {
+                    td2.innerHTML = "";
+                }
+                tr.appendChild(td1);
+                tr.appendChild(td2);
+                table.appendChild(tr);
+            }
+
+            return table;
+        }
+
+        ex_js_list = createExerciseList("Esercizi JS","esercizi_js",19);
+        ex_uml_list = createExerciseList("Esercizi UML","esercizi_uml",10);
+
+        table = createTable(ex_js_list, ex_uml_list);
+        document.getElementById("table").appendChild(table);
+
+    </script>
+</body>
