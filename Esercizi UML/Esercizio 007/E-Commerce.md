@@ -1,3 +1,16 @@
+# E-Commerce
+## testo
+Il sistema gestisce un negozio online. Il negozio vende dei prodotti informatici come tastiera,mouse. 
+Ogni prodotto ha un nome, una marca, la quantita' e  un prezzo di vendita. l'utente ha un nome e cognome, un codice identificativo e una password.  Il negozio ha anche un elenco di clienti che possono acquistare gli animali. 
+Il cliente acquista i prodotti mettendoli nel carrello 
+
+## immagine del diagramma UML
+![E-Commerce](https://raw.githubusercontent.com/isissmorciano/2223_4M/main/Esercizi%20UML/Esercizio%20007/007_e-CommerceUML.png)
+
+
+## codice del diagramma UML
+
+``` python
 @startuml
 class Carrello{
 nProdotti : int
@@ -46,3 +59,4 @@ Utente "1..1" -- "0..N" Prodotto : acquista
 
 
 @enduml
+```
