@@ -1,4 +1,4 @@
-# Negozio di Animali
+# Banca
 
 ## testo
 
@@ -9,7 +9,7 @@ Le operazioni che i correntisti possono fare sono il prelievo, il deposito o il 
 Per il prelievo, il trasferimento e la richiesta del saldo, la banca richiede la password del conto da cui viene preso il denaro o di cui viene chiesto il saldo.
 
 ## immagine del diagramma UML
-![Banca](https://raw.githubusercontent.com/isissmorciano/2223_4M/main/Esercizi%20UML/Esercizio 010/010_BancaUML.png)
+![Banca](https://github.com/isissmorciano/2223_4M/blob/main/Esercizi%20UML/Esercizio%20010/010_BancaUML.png)
 
 
 ## codice del diagramma UML
