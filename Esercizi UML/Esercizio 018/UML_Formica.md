@@ -1,6 +1,6 @@
 # Formica
 
-## testo
+## Testo
 Implementare una classe formica, che rappresenta
 un essere (con un nome), che si muove un passo alla volta in
 modo casuale in una delle 4 direzioni: NORD, SUD, EST, OVEST.
@@ -26,11 +26,11 @@ if (direzione == EST)
 if (direzione == OVEST)          
         posX -= passo;
 
-## immagine del diagramma UML
+## Immagine del diagramma UML
 ![Formica](https://github.com/isissmorciano/2223_4M/blob/main/Esercizi%20UML/Esercizio%20018/018_FormicaUML.png?raw=true)
 
 
-## codice del diagramma UML
+## Codice del diagramma UML
 
 ``` python
 @startuml
