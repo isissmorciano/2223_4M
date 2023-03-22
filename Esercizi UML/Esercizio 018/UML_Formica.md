@@ -27,7 +27,7 @@ if (direzione == OVEST)
         posX -= passo;
 
 ## immagine del diagramma UML
-![Formica](https://raw.githubusercontent.com/isissmorciano/2223_4M/main/Esercizi%20UML/Esercizio%20018/018_UML_Formica.png)
+![Formica](https://github.com/isissmorciano/2223_4M/blob/main/Esercizi%20UML/Esercizio%20018/018_FormicaUML.png?raw=true)
 
 
 ## codice del diagramma UML
