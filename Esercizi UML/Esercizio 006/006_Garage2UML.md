@@ -12,7 +12,7 @@ Si implementi una classe che modelli il garage sopradescritto offrendo le seguen
 3] stampa della situazione corrente dei posti nel garage
 
 ## Immagine del diagramma UML
-![Garage](https://raw.githubusercontent.com/isissmorciano/2223_4M/main/Esercizi%20UML/Esercizio%20003/003_RegistroUML.png)
+![Garage](https://github.com/isissmorciano/2223_4M/blob/main/Esercizi%20UML/Esercizio%20006/006_Garage2UML.png?raw=true)
 
 ## Codice del diagramma UML
 
