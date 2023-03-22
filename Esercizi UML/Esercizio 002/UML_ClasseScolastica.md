@@ -1,7 +1,7 @@
 # UML Classe Scolastica
 
-## Test
-realizzare il modello uml della classe scolastica
+## Titolo
+Realizzare il modello uml della classe scolastica
 
 ## Immagine del diagramma UML
 ![ClasseScolastica](https://github.com/isissmorciano/2223_4M/blob/main/Esercizi%20UML/Esercizio%20002/002_ClasseScolasticaUML.png?raw=true)
