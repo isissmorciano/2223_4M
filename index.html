@@ -62,8 +62,14 @@
             tr.appendChild(th1);
             tr.appendChild(th2);
             table.appendChild(tr);
-            // sistemare la lunghezza delle liste del ciclo for
-            for (var i = 0; i < ex_js_list.length; i++) { 
+            
+            let right_list;
+            if (ex_js_list.length >= ex_uml_list.length) 
+                right_list = ex_js_list;
+            else
+                right_list = ex_uml_list;
+          
+            for (var i = 0; i < right_list.length; i++) { 
                 var tr = document.createElement("tr");
                 var td1 = document.createElement("td");
                 var td2 = document.createElement("td");
