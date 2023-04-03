@@ -4,7 +4,7 @@
 Realizzare il modello uml del registro elettronico
 
 ## Immagine del diagramma UML
-![Cacciatore](https://github.com/isissmorciano/2223_4M/blob/main/Esercizi%20UML/Esercizio%20003/003_RegistroUML.png?raw=true)
+![Registro](https://github.com/isissmorciano/2223_4M/blob/main/Esercizi%20UML/Esercizio%20003/003_RegistroUML.png?raw=true)
 
 ## codice del diagramma UML
 
