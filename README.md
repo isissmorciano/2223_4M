@@ -3,6 +3,12 @@
 ## Esercizio di gruppo
 [Esercizio di gruppo](https://docs.google.com/document/d/1Vdph8OzDi5221ebejn35zRAg6rkJXZ0y8r9T0SUvb9I/edit?usp=sharing)
 
+## Esercizio repository nodejs
+creare un repo in una sottocartella di /home/utente/code
+installare nel repo il pacchetto prompt-sync
+stampare qualcosa
+pubblicare il repo su github
+
 ## Remote VSCode coding
 - Connettersi con VSCode tramite il protocollo SSH ad una macchina remota:
 [Remote VSCode Coding](https://docs.google.com/document/d/1Hj421cgJWSpHDKt7EvSvzY98OCbt7lCXVqEd5uTHEic/edit?usp=sharing)
