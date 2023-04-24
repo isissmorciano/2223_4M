@@ -18,27 +18,23 @@ Si implementi una classe che modelli il garage sopradescritto offrendo le seguen
 
 ``` python
 @startuml
-class Veicolo{
-marca : string
-anno : int
-cilindrata : int
+class Garage {
+  posti_auto : []int
+  indirizzo : string
+  Situazione_posti() : []int
+  Aggiungi_auto() : Auto
+  Rimuovi_auto() : Auto
 }
 
 class Auto {
-porte : int
-alimentazione : string
+  marca : string
+  anno : Date
+  cilindrata : int
+  porte : int
+  alimentazione : bool
+  ToString() : Auto 
 }
 
-class Moto{
-tempi : int
-}
-
-class Furgone{
-capacita : int
-}
-
-Moto -|> Veicolo
-Auto -|> Veicolo
-Furgone -|> Veicolo
+Garage "1...1" --> "0...14" Auto : ospita
 @enduml
 ```
