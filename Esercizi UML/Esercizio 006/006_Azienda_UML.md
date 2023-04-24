@@ -1,0 +1,3 @@
+# Azienda di produzione
+Azienda di produzione
+Il sistema gestisce un'azienda di produzione. L'azienda ha un elenco di macchinari, un elenco di dipendenti e un elenco di ordini. Ogni macchinario ha un numero univoco di identificazione, un modello e una data di installazione. Ogni dipendente ha un nome, un numero di identificazione e un ruolo (operatore, manutentore, amministratore). Ogni ordine ha un numero univoco, una data di creazione e una data di consegna. I dipendenti possono gestire i macchinari e gli ordini possono essere assegnati ai dipendenti per la loro esecuzione. Il sistema deve essere in grado di mostrare l'elenco dei macchinari disponibili, l'elenco dei dipendenti disponibili e l'elenco degli ordini in corso e completati.
