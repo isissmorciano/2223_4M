@@ -11,7 +11,7 @@ auto:porte, alimentazione (diesel/benzina)
 moto:tempi
 furgone:capacità
 
-![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/isissmorciano/2223_4M/main/Esercizi%20UML/Esercizio%20005/005_garageUML.iuml)
+![Prova](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/isissmorciano/2223_4M/main/Esercizi%20UML/Esercizio%20005/005_garageUML.iuml)
 
 <!-- ## Immagine del diagramma UML
 ![Registro](https://github.com/isissmorciano/2223_4M/blob/main/Esercizi%20UML/Esercizio%20003/003_RegistroUML.png?raw=true) -->
