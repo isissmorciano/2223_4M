@@ -1,0 +1,42 @@
+@startuml
+
+class Azienda{
+  nome : string
+  indirizzo : string
+  nImpiegatiTot : []
+  nDipartimenti : []
+  getN_Dipartimenti() : []
+  }
+
+class Dipartimento{
+  nome : string
+  nTelefono : int
+  nImpiegati : []
+  getN_Impiegati() : []
+  }
+
+class Impiegato{
+  nome : string
+  eta : date 
+  nTelefono : int
+  direttore : bool
+  }
+
+class Progetto{
+  nome : string
+  budget : int
+  nImpiegati : []
+  getN_Impiegati() : []
+  }
+
+class Data_Afferenza{
+  lavoraDal : date
+  setLavoraDal()
+  }
+
+Azienda "1..1"--"1..N" Dipartimento : possiede
+Dipartimento "1..1"--"1..N" Data_Afferenza 
+Data_Afferenza "1..1"--"1..N" Impiegato
+Impiegato "1..N"--"1..N" Progetto : partecipa
+
+@enduml
