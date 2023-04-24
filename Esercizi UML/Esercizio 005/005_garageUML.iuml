@@ -1,22 +1,25 @@
 @startuml
 
-class Auto {
-marca: string 
-anno : int
-cilindrata : int 
-porte : int 
-alimentazione : string 
+class Garage{
+  maxPosti : int
+  postiOcc : int
+  autoInGarage : Auto[maxPosti]
+  imissioneAuto(Auto) : bool
+  estraiAuto(int) : Auto
+  stampaSituazione() : void
 }
 
-class Garage {
-capienza : int
-nAuto : int
-toString()
-parcheggiaAuto()
-estraiAuto()
-stampaGarage()
+
+class Auto{
+  marca : string
+  anno : int
+  cilindrata : int
+  porte : int
+  alimentazione : string
+  toString()
+  getMarca() : string
 }
 
-Auto "0..15" -- "1..1" Garage
+Garage "0..1"--"0..15" Auto : Può ospitare
 
 @enduml
