@@ -5,9 +5,9 @@ Un auto è descritta da :
 marca, anno, cilindrata, porte, alimentazione (diesel/benzina);
 Definire il metodo ToString in modo che ogni entità possa esternalizzare in forma di stringa tutte le informazioni che la riguardano.
 Si implementi una classe che modelli il garage sopradescritto offrendo le seguenti operazioni di gestione
-1] immissione di una nuova auto
-2] estrazione dal garage di un auto che occupa un determinato posto
-3] stampa della situazione corrente dei posti nel garage
+1. immissione di una nuova auto
+2. estrazione dal garage di un auto che occupa un determinato posto
+3. stampa della situazione corrente dei posti nel garage
 
 ## Immagine del diagramma UML
 
