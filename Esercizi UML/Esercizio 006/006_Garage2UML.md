@@ -11,8 +11,6 @@ Si implementi una classe che modelli il garage sopradescritto offrendo le seguen
 2] estrazione dal garage di un auto che occupa un determinato posto
 3] stampa della situazione corrente dei posti nel garage
 
-## Immagine del diagramma UML
-
 
 ## Codice del diagramma UML
 
