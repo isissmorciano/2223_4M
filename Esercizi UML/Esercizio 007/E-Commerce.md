@@ -5,7 +5,7 @@ Ogni prodotto ha un nome, una marca, la quantita' e  un prezzo di vendita. l'ute
 Il cliente acquista i prodotti mettendoli nel carrello 
 
 ## immagine del diagramma UML
-![E-Commerce](l)
+![E-Commerce](https://github.com/isissmorciano/2223_4M/blob/main/Esercizi%20UML/Esercizio%20007/007_UML_e-commerce)
 
 
 ## codice del diagramma UML
