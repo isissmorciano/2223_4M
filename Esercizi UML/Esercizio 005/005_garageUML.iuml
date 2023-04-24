@@ -1,22 +1,10 @@
 @startuml
+actor client
+node app
+node car
+node tshirt
 
-class Auto {
-marca: string 
-anno : int
-cilindrata : int 
-porte : int 
-alimentazione : string 
-}
-
-class Garage {
-capienza : int
-nAuto : int
-toString()
-parcheggiaAuto()
-estraiAuto()
-stampaGarage()
-}
-
-Auto "0..15" -- "1..1" Garage
-
+car -> app
+app -> client
+client -> tshirt
 @enduml
