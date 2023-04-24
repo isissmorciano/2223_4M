@@ -13,29 +13,4 @@ furgone:capacità
 
 ## Immagine del diagramma UML
 
-![Prova](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/isissmorciano/2223_4M/main/Esercizi%20UML/Esercizio%20005/005_garageUML.iuml)
-
-## codice del diagramma UML
-
-@startuml
-
-class Auto {
-marca: string 
-anno : int
-cilindrata : int 
-porte : int 
-alimentazione : string 
-}
-
-class Garage {
-capienza : int
-nAuto : int
-toString()
-parcheggiaAuto()
-estraiAuto()
-stampaGarage()
-}
-
-Auto "0..15" -- "1..1" Garage
-
-@enduml
+<!-- ![Prova](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/isissmorciano/2223_4M/main/Esercizi%20UML/Esercizio%20005/005_garageUML.iuml) -->
