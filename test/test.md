@@ -2,8 +2,11 @@
 Test per l'immagine UML in un modo diverso.
 
 usando questo metodo:
+
+Fare un file nome_del_File.iuml e metterci dentro il codice UML.
+Infine mettere questo codice 
 ```
-![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/exampleUML/example/main/example-uml.iuml)
+![nome_del_diagramma](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/exampleUML/example/main/nome_file.iuml])
 ```
 ## immagine
 
