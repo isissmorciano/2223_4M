@@ -5,7 +5,7 @@ Ogni prodotto ha un nome, una marca, la quantita' e  un prezzo di vendita. l'ute
 Il cliente acquista i prodotti mettendoli nel carrello 
 
 ## immagine del diagramma UML
-![E-Commerce](https://raw.githubusercontent.com/isissmorciano/2223_4M/main/Esercizi%20UML/Esercizio%20007/007_e-CommerceUML.png)
+![E-Commerce](l)
 
 
 ## codice del diagramma UML
@@ -28,6 +28,15 @@ eliminaProdotto() : int
 
 }
 
+class Utente {
+username : string
+password : int
+nome : string
+cognome : string
+
+setInfoUtente() : int
+}
+
 class Prodotto {
 nome : int
   'es. Logitech G502'
@@ -42,19 +51,9 @@ sconto : int
 setInfoProdotto() : int
 }
 
-
-class Utente {
-username : string
-password : int
-nome : string
-cognome : string
-
-setInfoUtente() : int
-}
-
+Utente "1..1" -left- "0..N" Prodotto : acquista
 Utente "1..1" -- "1..1"Carrello : possiede
 Carrello "1..1" -- "0..N" Prodotto : contiene
-Utente "1..1" -- "0..N" Prodotto : acquista
 'è l'utente che acquista un prodotto'
 
 
