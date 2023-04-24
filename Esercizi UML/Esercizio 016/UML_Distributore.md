@@ -1,7 +1,7 @@
 # UML Distributore
 
 ## Titolo
-Realizzare il modello uml del distributore di carburante
+Realizzare il modello uml del distributore di bevande
 
 ## Immagine del diagramma UML
 ![Distributore](https://github.com/isissmorciano/2223_4M/blob/main/Esercizi%20UML/Esercizio%20016/016_DistributoreUML.png?raw=true)
