@@ -9,6 +9,10 @@ Si implementi una classe che modelli il garage sopradescritto offrendo le seguen
 2. estrazione dal garage di un auto che occupa un determinato posto
 3. stampa della situazione corrente dei posti nel garage
 
+<!-- ## Link file UML
+
+[Esercizio 005](https://github.com/isissmorciano/2223_4M/blob/main/Esercizi_UML/Esercizio_005/005_garageUML.iuml) -->
+
 ## Immagine del diagramma UML
 
-<!-- ![Prova](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/isissmorciano/2223_4M/main/Esercizi%20UML/Esercizio%20005/005_garageUML.iuml) -->
+![Esercizio 005](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/isissmorciano/2223_4M/main/Esercizi_UML/Esercizio_005/005_garageUML.iuml)
