@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Inspect Class</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        class Car {
+            constructor(name, year) {
+                this.name = name;
+                this.year = year;
+            }
+        }
+
+        const myCar = new Car("Ford", 2014);
+        console.log('1');
+        console.log(Object.keys(myCar)); // ["name", "year"]
+
+
+        console.log('2');
+        for (let prop in myCar) {
+            if (myCar.hasOwnProperty(prop)) {
+                console.log(prop); // name, year
+            }
+        }
+
+        console.log('3');
+        console.log(Object.getOwnPropertyNames(myCar)); // ["name", "year"]            
+    </script>
+</head>
+
+<body>
+    <h1>Inspect Class</h1>
+    <p>Open the console to view the properties of the "myCar" object.</p>
+</body>
+
+</html>
